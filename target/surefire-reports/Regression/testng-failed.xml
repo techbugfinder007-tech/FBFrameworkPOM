@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Regression]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" parallel="tests" name="Login Test(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Reg"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.app.test.LoginTest">
+        <methods>
+          <include name="loginWithValidCredentials" invocation-numbers="0 1"/>
+          <include name="closeDriver"/>
+          <include name="launchAppliaction"/>
+        </methods>
+      </class> <!-- com.app.test.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [Regression] -->

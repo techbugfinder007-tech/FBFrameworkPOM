@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.app.testcomponent.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="AccountRecovery Test(failed)">
+    <classes>
+      <class name="com.app.test.AccountRecoveryTest">
+        <methods>
+          <include name="recoverAccountWithInvalidEmail"/>
+          <include name="recoverAccountWithEmptyField"/>
+          <include name="recoverAccountWithValidEmail"/>
+          <include name="recoverAccountWithInvalidPhone"/>
+          <include name="closeDriver"/>
+          <include name="launchAppliaction"/>
+        </methods>
+      </class> <!-- com.app.test.AccountRecoveryTest -->
+    </classes>
+  </test> <!-- AccountRecovery Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Login Test(failed)">
+    <classes>
+      <class name="com.app.test.LoginTest">
+        <methods>
+          <include name="loginWithValidCredentials"/>
+          <include name="closeDriver"/>
+          <include name="launchAppliaction"/>
+          <include name="loginWithInValidCredentials"/>
+        </methods>
+      </class> <!-- com.app.test.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test thread-count="5" parallel="tests" name="Registration  Test(failed)">
+    <classes>
+      <class name="com.app.test.RegistrationTest">
+        <methods>
+          <include name="registerWithEmptyFields"/>
+          <include name="registerWithoutFirstName"/>
+          <include name="registerWithWeakPassword"/>
+          <include name="registerWithInvalidEmail"/>
+          <include name="registerWithValidData"/>
+          <include name="closeDriver"/>
+          <include name="launchAppliaction"/>
+        </methods>
+      </class> <!-- com.app.test.RegistrationTest -->
+    </classes>
+  </test> <!-- Registration  Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

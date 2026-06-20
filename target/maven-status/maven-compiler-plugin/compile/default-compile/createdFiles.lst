@@ -1,0 +1,6 @@
+com/app/pageobject/RegistrationPage.class
+com/app/utils/CommomUtils.class
+com/app/pageobject/ForgotPasswordPage.class
+com/app/pageobject/LoginPage.class
+com/app/facebookTestWithPOM.class
+com/app/facebookTestWithoutPOM.class

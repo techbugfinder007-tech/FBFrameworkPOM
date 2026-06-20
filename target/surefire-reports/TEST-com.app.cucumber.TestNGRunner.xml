@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.app.cucumber.TestNGRunner" time="18.34" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="/Users/praful/.cache/selenium/chromedriver/mac-arm64/149.0.7827.155/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework/target/test-classes:/Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework/target/classes:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-java/4.44.0/selenium-java-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-api/4.44.0/selenium-api-4.44.0.jar:/Users/praful/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.44.0/selenium-chrome-driver-4.44.0.jar:/Users/praful/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.44.0/selenium-chromium-driver-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-json/4.44.0/selenium-json-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.44.0/selenium-manager-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v146/4.44.0/selenium-devtools-v146-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v147/4.44.0/selenium-devtools-v147-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v148/4.44.0/selenium-devtools-v148-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.44.0/selenium-edge-driver-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.44.0/selenium-firefox-driver-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-http/4.44.0/selenium-http-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.44.0/selenium-ie-driver-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.44.0/selenium-remote-driver-4.44.0.jar:/Users/praful/.m2/repository/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/Users/praful/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/praful/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/praful/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-api/1.62.0/opentelemetry-api-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-context/1.62.0/opentelemetry-context-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-common/1.62.0/opentelemetry-common-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.62.0/opentelemetry-exporter-logging-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.62.0/opentelemetry-sdk-common-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.62.0/opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.62.0/opentelemetry-sdk-extension-autoconfigure-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.62.0/opentelemetry-sdk-trace-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.62.0/opentelemetry-sdk-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.62.0/opentelemetry-sdk-metrics-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.62.0/opentelemetry-sdk-logs-1.62.0.jar:/Users/praful/.m2/repository/net/bytebuddy/byte-buddy/1.18.8-jdk5/byte-buddy-1.18.8-jdk5.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-os/4.44.0/selenium-os-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.44.0/selenium-safari-driver-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-support/4.44.0/selenium-support-4.44.0.jar:/Users/praful/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.4/webdrivermanager-6.3.4.jar:/Users/praful/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/praful/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/Users/praful/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/praful/.m2/repository/com/github/docker-java/docker-java/3.7.1/docker-java-3.7.1.jar:/Users/praful/.m2/repository/com/github/docker-java/docker-java-core/3.7.1/docker-java-core-3.7.1.jar:/Users/praful/.m2/repository/com/github/docker-java/docker-java-api/3.7.1/docker-java-api-3.7.1.jar:/Users/praful/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/praful/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.7.1/docker-java-transport-httpclient5-3.7.1.jar:/Users/praful/.m2/repository/com/github/docker-java/docker-java-transport/3.7.1/docker-java-transport-3.7.1.jar:/Users/praful/.m2/repository/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar:/Users/praful/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/praful/.m2/repository/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/Users/praful/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/praful/.m2/repository/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar:/Users/praful/.m2/repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/Users/praful/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.6/httpclient5-5.6.jar:/Users/praful/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar:/Users/praful/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar:/Users/praful/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.22.0/jackson-databind-2.22.0.jar:/Users/praful/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.22/jackson-annotations-2.22.jar:/Users/praful/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.22.0/jackson-core-2.22.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-java/7.5.0/cucumber-java-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-core/7.5.0/cucumber-core-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-gherkin/7.5.0/cucumber-gherkin-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.5.0/cucumber-gherkin-messages-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/praful/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/praful/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/praful/.m2/repository/io/cucumber/datatable/7.5.0/datatable-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-plugin/7.5.0/cucumber-plugin-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/docstring/7.5.0/docstring-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/praful/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/praful/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-testng/7.5.0/cucumber-testng-7.5.0.jar:/Users/praful/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/praful/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/praful/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/praful/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/praful/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/praful/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/praful/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/praful/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@21/21.0.11/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework/target/surefire/surefirebooter-20260620135925631_3.jar /Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework/target/surefire 2026-06-20T13-59-25_598-jvmRun1 surefire-20260620135925631_1tmp surefire_0-20260620135925631_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework/target/test-classes:/Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework/target/classes:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-java/4.44.0/selenium-java-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-api/4.44.0/selenium-api-4.44.0.jar:/Users/praful/.m2/repository/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.44.0/selenium-chrome-driver-4.44.0.jar:/Users/praful/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.44.0/selenium-chromium-driver-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-json/4.44.0/selenium-json-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.44.0/selenium-manager-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v146/4.44.0/selenium-devtools-v146-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v147/4.44.0/selenium-devtools-v147-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v148/4.44.0/selenium-devtools-v148-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.44.0/selenium-edge-driver-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.44.0/selenium-firefox-driver-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-http/4.44.0/selenium-http-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.44.0/selenium-ie-driver-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.44.0/selenium-remote-driver-4.44.0.jar:/Users/praful/.m2/repository/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/Users/praful/.m2/repository/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/Users/praful/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/praful/.m2/repository/com/google/j2objc/j2objc-annotations/3.1/j2objc-annotations-3.1.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-api/1.62.0/opentelemetry-api-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-context/1.62.0/opentelemetry-context-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-common/1.62.0/opentelemetry-common-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.62.0/opentelemetry-exporter-logging-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.62.0/opentelemetry-sdk-common-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.62.0/opentelemetry-sdk-extension-autoconfigure-spi-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.62.0/opentelemetry-sdk-extension-autoconfigure-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.62.0/opentelemetry-sdk-trace-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.62.0/opentelemetry-sdk-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.62.0/opentelemetry-sdk-metrics-1.62.0.jar:/Users/praful/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.62.0/opentelemetry-sdk-logs-1.62.0.jar:/Users/praful/.m2/repository/net/bytebuddy/byte-buddy/1.18.8-jdk5/byte-buddy-1.18.8-jdk5.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-os/4.44.0/selenium-os-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.44.0/selenium-safari-driver-4.44.0.jar:/Users/praful/.m2/repository/org/seleniumhq/selenium/selenium-support/4.44.0/selenium-support-4.44.0.jar:/Users/praful/.m2/repository/io/github/bonigarcia/webdrivermanager/6.3.4/webdrivermanager-6.3.4.jar:/Users/praful/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/Users/praful/.m2/repository/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar:/Users/praful/.m2/repository/com/google/errorprone/error_prone_annotations/2.41.0/error_prone_annotations-2.41.0.jar:/Users/praful/.m2/repository/com/github/docker-java/docker-java/3.7.1/docker-java-3.7.1.jar:/Users/praful/.m2/repository/com/github/docker-java/docker-java-core/3.7.1/docker-java-core-3.7.1.jar:/Users/praful/.m2/repository/com/github/docker-java/docker-java-api/3.7.1/docker-java-api-3.7.1.jar:/Users/praful/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/praful/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.7.1/docker-java-transport-httpclient5-3.7.1.jar:/Users/praful/.m2/repository/com/github/docker-java/docker-java-transport/3.7.1/docker-java-transport-3.7.1.jar:/Users/praful/.m2/repository/net/java/dev/jna/jna/5.18.1/jna-5.18.1.jar:/Users/praful/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/praful/.m2/repository/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/Users/praful/.m2/repository/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/Users/praful/.m2/repository/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar:/Users/praful/.m2/repository/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/Users/praful/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.6/httpclient5-5.6.jar:/Users/praful/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.4/httpcore5-5.4.jar:/Users/praful/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.4/httpcore5-h2-5.4.jar:/Users/praful/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.22.0/jackson-databind-2.22.0.jar:/Users/praful/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.22/jackson-annotations-2.22.jar:/Users/praful/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.22.0/jackson-core-2.22.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-java/7.5.0/cucumber-java-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-core/7.5.0/cucumber-core-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-gherkin/7.5.0/cucumber-gherkin-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.5.0/cucumber-gherkin-messages-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/gherkin/23.0.1/gherkin-23.0.1.jar:/Users/praful/.m2/repository/io/cucumber/messages/18.0.0/messages-18.0.0.jar:/Users/praful/.m2/repository/io/cucumber/tag-expressions/4.1.0/tag-expressions-4.1.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-expressions/16.0.0/cucumber-expressions-16.0.0.jar:/Users/praful/.m2/repository/io/cucumber/datatable/7.5.0/datatable-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-plugin/7.5.0/cucumber-plugin-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/docstring/7.5.0/docstring-7.5.0.jar:/Users/praful/.m2/repository/io/cucumber/html-formatter/19.2.0/html-formatter-19.2.0.jar:/Users/praful/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/praful/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/praful/.m2/repository/io/cucumber/cucumber-testng/7.5.0/cucumber-testng-7.5.0.jar:/Users/praful/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/praful/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/praful/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/praful/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar:/Users/praful/.m2/repository/io/reactivex/rxjava3/rxjava/3.1.6/rxjava-3.1.6.jar:/Users/praful/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:/Users/praful/.m2/repository/org/freemarker/freemarker/2.3.32/freemarker-2.3.32.jar:/Users/praful/.m2/repository/org/projectlombok/lombok/1.18.26/lombok-1.18.26.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/praful"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@21/21.0.11/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Non-zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework/target/surefire/surefirebooter-20260620135925631_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.11"/>
+    <property name="user.name" value="praful"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/praful/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/yt/ylqlz9k10vx1mvbl9dh3z2cw0000gn/T/"/>
+    <property name="java.version" value="21.0.11"/>
+    <property name="user.dir" value="/Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/praful/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.11"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Login with valid credentials&quot;, &quot;Facebook Login Functionality&quot;](1)" classname="com.app.cucumber.TestNGRunner" time="2.282">
+    <system-out><![CDATA[
+Scenario: Login with valid credentials       # src/test/java/com/app/cucumber/login.feature:6
+  Given user is on Facebook login page       # com.app.stepdefinations.StepdefinitionImpl.user_is_on_facebook_login_page()
+  When user enters valid email and password  # com.app.stepdefinations.StepdefinitionImpl.user_enters_valid_email_and_password()
+  And clicks on login button                 # com.app.stepdefinations.StepdefinitionImpl.clicks_on_login_button()
+login successfully
+  Then user should be logged in successfully # com.app.stepdefinations.StepdefinitionImpl.user_should_be_logged_in_successfully()
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Jun 20, 2026 1:59:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login with invalid credentials&quot;, &quot;Facebook Login Functionality&quot;](2)" classname="com.app.cucumber.TestNGRunner" time="2.123">
+    <system-out><![CDATA[
+Scenario: Login with invalid credentials                 # src/test/java/com/app/cucumber/login.feature:11
+  Given user is on Facebook login page                   # com.app.stepdefinations.StepdefinitionImpl.user_is_on_facebook_login_page()
+  When user enters invalid email and password            # com.app.stepdefinations.StepdefinitionImpl.user_enters_invalid_email_and_password()
+  And clicks on login button                             # com.app.stepdefinations.StepdefinitionImpl.clicks_on_login_button()
+Invalid or Incorrect email
+  Then "Invalid or Incorrect email" message is displayed # com.app.stepdefinations.StepdefinitionImpl.message_is_displayed(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[Jun 20, 2026 1:59:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Register with valid data&quot;, &quot;Facebook Registration Functionality&quot;](3)" classname="com.app.cucumber.TestNGRunner" time="7.185">
+    <system-out><![CDATA[
+Scenario: Register with valid data                 # src/test/java/com/app/cucumber/registration.feature:7
+  Given user is on Facebook login page             # com.app.stepdefinations.StepdefinitionImpl.user_is_on_facebook_login_page()
+  When user clicks on Create New Account           # com.app.stepdefinations.StepdefinitionImpl.user_clicks_on_create_new_account()
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... 18
+Retrying... APRIL
+Retrying... APRIL
+Retrying... APRIL
+Retrying... APRIL
+Retrying... APRIL
+Retrying... APRIL
+Retrying... APRIL
+Retrying... APRIL
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... 2024
+Retrying... Male
+  When user enters valid registration details      # com.app.stepdefinations.StepdefinitionImpl.user_enters_valid_registration_details()
+  And clicks on Sign Up button                     # com.app.stepdefinations.StepdefinitionImpl.clicks_on_sign_up_button()
+account created successfully 
+  Then user account should be created successfully # com.app.stepdefinations.StepdefinitionImpl.user_account_should_be_created_successfully()
+]]></system-out>
+    <system-err><![CDATA[Jun 20, 2026 1:59:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Register with empty fields&quot;, &quot;Facebook Registration Functionality&quot;](4)" classname="com.app.cucumber.TestNGRunner" time="6.452">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()=&apos;Could not validate your mobile number. Please check the number and try again.&apos;]&quot;}&#10;  (Session info: chrome=149.0.7827.54)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: &apos;4.44.0&apos;, revision: &apos;da2039b&apos;&#10;System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;26.5&apos;, java.version: &apos;21.0.11&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [6039f4061349b7963b1d33109e1f2ad2, findElement {using=xpath, value=//span[text()=&apos;Could not validate your mobile number. Please check the number and try again.&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/yt/ylqlz9k10vx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49925}, goog:processID: 2282, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49925/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6039f4061349b7963b1d33109e1f2ad2" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Could not validate your mobile number. Please check the number and try again.']"}
+  (Session info: chrome=149.0.7827.54)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6039f4061349b7963b1d33109e1f2ad2, findElement {using=xpath, value=//span[text()='Could not validate your mobile number. Please check the number and try again.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/yt/ylqlz9k10vx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49925}, goog:processID: 2282, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49925/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6039f4061349b7963b1d33109e1f2ad2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at com.app.pageobject.RegistrationPage.getErrorMassage(RegistrationPage.java:143)
+	at com.app.stepdefinations.StepdefinitionImpl.user_should_see_validation_errors(StepdefinitionImpl.java:87)
+	at ✽.user should see validation errors(file:///Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework/src/test/java/com/app/cucumber/registration.feature:15)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Register with empty fields                # src/test/java/com/app/cucumber/registration.feature:13
+  Given user is on Facebook login page              # com.app.stepdefinations.StepdefinitionImpl.user_is_on_facebook_login_page()
+  When user clicks on Create New Account            # com.app.stepdefinations.StepdefinitionImpl.user_clicks_on_create_new_account()
+  When user clicks on Sign Up without entering data # com.app.stepdefinations.StepdefinitionImpl.user_clicks_on_sign_up_without_entering_data()
+  Then user should see validation errors            # com.app.stepdefinations.StepdefinitionImpl.user_should_see_validation_errors()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Could not validate your mobile number. Please check the number and try again.']"}
+  (Session info: chrome=149.0.7827.54)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6039f4061349b7963b1d33109e1f2ad2, findElement {using=xpath, value=//span[text()='Could not validate your mobile number. Please check the number and try again.']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/yt/ylqlz9k10vx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49925}, goog:processID: 2282, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49925/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6039f4061349b7963b1d33109e1f2ad2
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at com.app.pageobject.RegistrationPage.getErrorMassage(RegistrationPage.java:143)
+	at com.app.stepdefinations.StepdefinitionImpl.user_should_see_validation_errors(StepdefinitionImpl.java:87)
+	at ✽.user should see validation errors(file:///Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework/src/test/java/com/app/cucumber/registration.feature:15)
+
+]]></system-out>
+    <system-err><![CDATA[Jun 20, 2026 1:59:38 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 149, returning the closest version; found: 148; Please update to a Selenium version that supports CDP version 149
+]]></system-err>
+  </testcase>
+</testsuite>

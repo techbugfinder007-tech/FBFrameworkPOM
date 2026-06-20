@@ -1,0 +1,12 @@
+
+[
+	{
+		"email" :"json1@gmail.com",
+		"password":"passJson1"
+	},
+	
+	{
+		"email" :"json2@gmail.com",
+		"password":"passJson2"
+	}	
+]

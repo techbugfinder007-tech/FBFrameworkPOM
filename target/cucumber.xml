@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="17.735">
+    <testcase classname="Facebook Login Functionality" name="Login with valid credentials" time="2.037">
+        <system-out><![CDATA[Given user is on Facebook login page........................................passed
+When user enters valid email and password...................................passed
+And clicks on login button..................................................passed
+Then user should be logged in successfully..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Facebook Login Functionality" name="Login with invalid credentials" time="1.674">
+        <system-out><![CDATA[Given user is on Facebook login page........................................passed
+When user enters invalid email and password.................................passed
+And clicks on login button..................................................passed
+Then "Invalid" message is displayed.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Facebook Registration Functionality" name="Register with valid data" time="6.645">
+        <system-out><![CDATA[Given user is on Facebook login page........................................passed
+When user clicks on Create New Account......................................passed
+When user enters valid registration details.................................passed
+And clicks on Sign Up button................................................passed
+Then user account should be created successfully............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Facebook Registration Functionality" name="Register with empty fields" time="7.324">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[text()='Could not validate your mobile number. Please check the number and try again.']&quot;}&#10;  (Session info: chrome=149.0.7827.54)&#10;For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception&#10;Build info: version: '4.44.0', revision: 'da2039b'&#10;System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5', java.version: '17.0.16'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5b1afec67a36442149bdf74809249b28, findElement {value=//span[text()='Could not validate your mobile number. Please check the number and try again.'], using=xpath}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/yt/ylqlz9k10vx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52072}, goog:processID: 59661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52072/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5b1afec67a36442149bdf74809249b28" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on Facebook login page........................................passed
+When user clicks on Create New Account......................................passed
+When user clicks on Sign Up without entering data...........................passed
+Then user should see validation errors......................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Could not validate your mobile number. Please check the number and try again.']"}
+  (Session info: chrome=149.0.7827.54)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.5', java.version: '17.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b1afec67a36442149bdf74809249b28, findElement {value=//span[text()='Could not validate your mobile number. Please check the number and try again.'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.54, chrome: {chromedriverVersion: 149.0.7827.155 (07b52360cc1..., userDataDir: /var/folders/yt/ylqlz9k10vx...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52072}, goog:processID: 59661, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52072/devtoo..., se:cdpVersion: 149.0.7827.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b1afec67a36442149bdf74809249b28
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.getText(Unknown Source)
+	at com.app.pageobject.RegistrationPage.getErrorMassage(RegistrationPage.java:143)
+	at com.app.stepdefinations.StepdefinitionImpl.user_should_see_validation_errors(StepdefinitionImpl.java:87)
+	at ✽.user should see validation errors(file:///Users/praful/Downloads/Eclipse-WS/BatchRS-New/FBAutomationFramework/src/test/java/com/app/cucumber/registration.feature:15)
+]]></failure>
+    </testcase>
+</testsuite>
