@@ -12,11 +12,15 @@ public class LoginPage extends CommomUtils {
 
 	public WebDriver driver;
 	//this is new comment
+
+	
 	
 	public LoginPage(WebDriver driver){
+		
 		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);//initialize web elements
+		System.out.println("Initializing LoginPage ===== ");
 		
 	}
 	//web elements
