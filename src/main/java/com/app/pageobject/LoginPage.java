@@ -21,6 +21,9 @@ public class LoginPage extends CommomUtils {
 		this.driver=driver;
 		PageFactory.initElements(driver, this);//initialize web elements
 		System.out.println("Initializing LoginPage ===== ");
+		//
+		//
+		
 		
 	}
 	//web elements
