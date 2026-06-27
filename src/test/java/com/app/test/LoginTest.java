@@ -17,6 +17,8 @@ public class LoginTest extends BaseTest  {
 	@Test(dataProvider = "getLoginData" ,groups = {"Reg"})
 	//public void loginWithValidCredentials(String email , String pass) {
 	public void loginWithValidCredentials(HashMap<String , String> map) {
+
+		//new code added
 	loginPage.login(map.get("email"), map.get("password"));//retriving value from hashMap
 		Assert.assertTrue(false);
 		
